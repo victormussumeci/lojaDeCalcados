@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+
+
+}
+html{
+    overflow-x:hidden;
+    background-color: rgb(207, 223, 223);
+}
+.container{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+
+}
+.conteudo2{
+    display: block;
+    justify-content: center;
+    text-align: left;
+}
+.conteudo2 p{
+    width: 80%;
+}
+ h2{
+    border-bottom: solid 2px  rgba(20, 190, 190, 0.685);
+    width: 80%;
+}
+.conteudo{
+    text-align: center;
+}
+.conteudo img{
+    width:600px;
+}
+.conteudoProdutos{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    column-gap: 1%;
+}
+section{
+    width: 90%;
+    margin-top: 50px;
+}
+section h2{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+.card ul{
+    list-style: none;
+}
+.card ul li{
+    margin-bottom: 18px;
+}
+.card button{
+    text-align: center;
+    background-color: rgba(20, 190, 190, 0.685);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    background-color: rgba(20, 190, 190, 0.685);
+    height: 80px;
+    margin-bottom: 50px;
+    align-items: center;
+    width: 100%;
+}
+header h1{
+    color: white;
+}
+nav ul{
+    list-style: none;
+  
+}
+nav ul li{
+    display: inline;
+    padding-left: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+@media screen and (max-width:667px) {
+ 
+    html{
+        overflow-x:hidden;
+    }
+    header{
+        display: block;
+        background-color: rgba(20, 190, 190, 0.685);
+        height: 100px;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        
+    }
+    .conteudo img{
+        width:80%;
+        margin-bottom: 30px;
+    }
+    .conteudoProdutos{
+        display: block;
+    }
+    nav ul li{
+        display:block;
+        padding-bottom: 8px;
+    }
+    section{
+        width: 80%;
+        margin-top: 50px;
+    }
+    section h2{
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .card button{
+        text-align: center;
+        background-color: rgba(20, 190, 190, 0.685);
+        color: white;
+        width: 80%;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .card li p{
+        width: 80%;
+      
+    }
+    .card li img{
+        width: 80%;
+       
+    }
+    .card li h3{
+        width: 80%;
+       
+    }
+    header h1{
+        color: white;
+        padding-bottom: 10px;
+    }
+    h2{
+        border-bottom: solid 2px  rgba(20, 190, 190, 0.685);
+        width: 80%;
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    .conteudo2 p{
+        margin-top: 30px;
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width:668px) and (max-width:1025px){
+    html{
+        overflow-x:hidden;
+        font-size: 24px;
+    }
+    header{
+        display: block;
+        background-color: rgba(20, 190, 190, 0.685);
+        height: 100px;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        
+    }
+    .conteudo img{
+        width:80%;
+        margin-bottom: 30px;
+    }
+    .conteudoProdutos{
+        display: grid;
+        grid-template-columns: repeat(2,49%);
+        column-gap: 2%;
+    }
+    .conteudo2 p{
+        margin-top: 30px;
+        width: 80%;
+        font-size: 34px;
+    }
+    .card button{
+        font-size: 34px;
+    }
+
+    p{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+    }
+    nav ul li{
+        display:block;
+        padding-left: 25px;
+        margin-top: 20px;
+    }
+    header{
+      
+        background-color: rgba(20, 190, 190, 0.685);
+        height: 200px;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 100%;
+    }
+}
